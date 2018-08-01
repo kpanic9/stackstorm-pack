@@ -4,8 +4,8 @@ pack: stackstorm_training
 enabled: true
 trigger:
   type: core.st2.IntervalTimer
-  delta: 2
-  unit: minutes
+  delta: 30
+  unit: seconds
 action:
   ref: stackstorm_training.echo_action
   parameters:
