@@ -1,5 +1,6 @@
 import sys
-from st2actions.runners.pythonrunner import Action
+#from st2actions.runners.pythonrunner import Action
+from st2common.runners.base_action import Action
 
 class CreateTicket(Action):
     def run(self, param1, param2, param3):
