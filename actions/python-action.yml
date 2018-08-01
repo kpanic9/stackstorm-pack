@@ -1,21 +1,12 @@
 ---
 name: "python_action"
-pack: "stackstorm_training"
 runner_type: "python-script"
 description: "test python script"
 enabled: true
 entry_point: "python_action.py"
 parameters:
-  param1:
+  message:
     type: "string"
-    description: "Alert desciption from Monza"
+    description: "Echo message"
     required: true
-  param2:
-    type: "string"
-    description: "Alert desciption from Monza"
-    required: true
-  param3:
-    type: "string"
-    description: "Alert desciption from Monza"
-    required: true
-
+    position: 0
