@@ -7,6 +7,6 @@ trigger:
   delta: 2
   unit: minutes
 action:
-  ref: stackstorm_training
+  ref: stackstorm_training.echo_action
   parameters:
     message: "Hello World"
