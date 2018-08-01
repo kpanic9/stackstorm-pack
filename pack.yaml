@@ -1,6 +1,6 @@
 ---
 ref: stackstorm_training
-name: StackStorm Training
+name: stackstorm_training
 description: Training
 keywords:
   - st2
