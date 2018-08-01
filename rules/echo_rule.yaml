@@ -3,8 +3,10 @@ name: echo_rule
 pack: stackstorm_training
 enabled: true
 trigger:
-  type: core.webhook
-  url: test
+  type: core.st2.IntervalTimer
+  parameters:
+    unit: seconds
+    delta: 10
 action:
   ref: stackstorm_training.echo_action
   parameters:
