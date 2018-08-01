@@ -3,7 +3,7 @@ name: echo_rule
 pack: stackstorm_training
 enabled: true
 trigger:
-  type: core.st2/IntervalTimer
+  type: core.st2.IntervalTimer
   delta: 2
   unit: minutes
 action:
