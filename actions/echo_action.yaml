@@ -1,0 +1,12 @@
+---
+name: "echo_action"
+runner_type: "python-script"
+description: "test python script"
+enabled: true
+entry_point: "echo_action.py"
+parameters:
+  message:
+    type: "string"
+    description: "Echo message"
+    required: true
+    position: 0
