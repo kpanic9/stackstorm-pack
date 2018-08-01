@@ -1,6 +1,6 @@
 ---
 name: action_with_shell_script
-pack: st2_training
+pack: stackstorm_training
 runner_type: "local-shell-cmd"
 description: Greet StackStorm!
 enabled: true
