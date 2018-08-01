@@ -1,0 +1,13 @@
+---
+name: action_with_shell_script
+pack: stackstorm_training
+runner_type: "local-shell-cmd"
+description: Greet StackStorm!
+enabled: true
+entry_point: action_with_shell_script.sh
+parameters:
+  message:
+    type: string
+    description: This is the message to be echoed.
+    required: true
+    position: 0
