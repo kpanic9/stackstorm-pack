@@ -9,4 +9,6 @@ class CreateTicket(Action):
         #print("param1 " + str(param1))
         return (True, "Action run is successfull")
 
+#t = CreateTicket()
+#t.run("hi")
 
