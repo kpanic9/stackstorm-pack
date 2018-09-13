@@ -3,10 +3,9 @@ name: echo_rule
 pack: stackstorm_training
 enabled: true
 trigger:
-  type: core.st2.IntervalTimer
+  type: "core.st2.webhook"
   parameters:
-    unit: seconds
-    delta: 10
+    url: "task-automation/db/oracle/add-datafile"
 action:
   ref: stackstorm_training.echo_action
   parameters:
